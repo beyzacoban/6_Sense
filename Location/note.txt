@@ -1,0 +1,2 @@
+konum bilgisi icin
+https://geopy.readthedocs.io/en/stable/#installation
