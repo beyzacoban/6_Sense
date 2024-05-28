@@ -1,2 +1,4 @@
 konum bilgisi icin
 https://geopy.readthedocs.io/en/stable/#installation
+
+konum bilgisi 60 saniyede bir yenileniyor artik kodu hazir bunu bir kanala aktarmak lazim
