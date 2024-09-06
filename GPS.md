@@ -1,3 +1,7 @@
+![image](https://github.com/user-attachments/assets/1fd2ec5f-28dc-42a9-a5f5-df49c40d4008)
+
+
+
 # Test Süreci Açıklaması (Kullanılan Teknolojiler ve Kütüphaneler):
 # 1. Program başlatılır ve Flask web uygulaması ayrı bir thread'de çalıştırılır.
 #    - Flask: Web uygulaması için kullanılan micro web framework
