@@ -1,14 +1,3 @@
-# Görme Engelli Yaya Navigasyon Simülasyonu
-
-Bu proje, OpenStreetMap (OSM) verilerini kullanarak görme engelli yayalar için bir navigasyon sistemini simüle eder. Erişilebilirlik özelliklerini dikkate alarak optimal rotalar hesaplar ve gerçek zamanlı engel kaçınmayı simüle eder.
-
-## Özellikler
-
-1. **OpenStreetMap Entegrasyonu**: Doğru navigasyon için gerçek dünya harita verilerini kullanır.
-2. **Erişilebilirlik Odaklı Rota Belirleme**: Görme engelli yayalar için optimize edilmiş rotalar hesaplar.
-3. **Dinamik Engel Kaçınma**: Beklenmedik engellerin tespitini ve kaçınmasını simüle eder.
-4. **Gerçek Zamanlı Görselleştirme**: Navigasyon sürecini görselleştirmek için web tabanlı bir arayüz sunar.
-
 ## Erişilebilirlik Puanı
 
 Erişilebilirlik puanı, bir yolun görme engelli yayalar için ne kadar uygun olduğunun bir ölçüsüdür. Düşük puan daha iyi erişilebilirliği gösterir. Puan, aşağıdaki OSM etiketlerine göre hesaplanır:
@@ -51,21 +40,4 @@ Web arayüzü şunları gösterir:
 - Navigasyon durumu ve erişilebilirlik bilgileri hakkında gerçek zamanlı güncellemeler.
 - Devam eden simülasyonun temel metrikleri.
 
-## Başlangıç
 
-[Projeyi nasıl kurup çalıştıracağınıza dair talimatları ekleyin]
-
-## Bağımlılıklar
-
-- Flask
-- OSMnx
-- NetworkX
-- Leaflet.js (harita görselleştirmesi için)
-
-## Katkıda Bulunma
-
-[Projeye nasıl katkıda bulunulacağına dair yönergeleri ekleyin]
-
-## Lisans
-
-[Bu projenin hangi lisans altında yayınlandığını belirtin]
