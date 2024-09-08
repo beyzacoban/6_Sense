@@ -40,4 +40,6 @@ Web arayüzü şunları gösterir:
 - Navigasyon durumu ve erişilebilirlik bilgileri hakkında gerçek zamanlı güncellemeler.
 - Devam eden simülasyonun temel metrikleri.
 
+![image](https://github.com/user-attachments/assets/33956229-f4d7-4932-90f2-50e384da3398)
+
 
