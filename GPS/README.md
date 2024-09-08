@@ -1,4 +1,7 @@
-## Erişilebilirlik Puanı
+![image](https://github.com/user-attachments/assets/33956229-f4d7-4932-90f2-50e384da3398)
+
+
+## Accessibility Score
 
 Erişilebilirlik puanı, bir yolun görme engelli yayalar için ne kadar uygun olduğunun bir ölçüsüdür. Düşük puan daha iyi erişilebilirliği gösterir. Puan, aşağıdaki OSM etiketlerine göre hesaplanır:
 
@@ -40,6 +43,5 @@ Web arayüzü şunları gösterir:
 - Navigasyon durumu ve erişilebilirlik bilgileri hakkında gerçek zamanlı güncellemeler.
 - Devam eden simülasyonun temel metrikleri.
 
-![image](https://github.com/user-attachments/assets/33956229-f4d7-4932-90f2-50e384da3398)
 
 
