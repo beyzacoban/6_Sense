@@ -3,6 +3,10 @@
 
 ## Accessibility Score
 
+-Bu skora göre rota kullanıcı tarafından veya algoritma tarafından dinamik olarak değiştirilebilinir.
+- Test için normalde Yolo gibi kütüphanelerden yada kullanıcıdan gelicek engel feedbacklerini, kendim rastgele rotaya yerleştirerek test ettim.
+- İki farklı api kullandım. OpenStreetMap de simulasyon çalıştı fakat google maps api nda testi gerçekleştiremedim.
+
 Erişilebilirlik puanı, bir yolun görme engelli yayalar için ne kadar uygun olduğunun bir ölçüsüdür. Düşük puan daha iyi erişilebilirliği gösterir. Puan, aşağıdaki OSM etiketlerine göre hesaplanır:
 
 - **Hissedilebilir Kaplama**: Mevcut ise puanı %20 azaltır, navigasyona yardımcı olur.

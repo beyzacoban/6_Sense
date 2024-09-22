@@ -1,3 +1,6 @@
+#Kütüphanelerin İçe Aktarılması: random, time, flask, osmnx, networkx gibi gerekli kütüphaneler ve modüller projeye dahil ediliyor.
+
+
 import random
 import time
 from flask import Flask, render_template_string, jsonify
@@ -42,7 +45,7 @@ def initialize_graph():
 def get_route(start, end):
     start_node = ox.nearest_nodes(graph, start[1], start[0])
     end_node = ox.nearest_nodes(graph, end[1], end[0])
-    route = nx.shortest_path(graph, start_node, end_node, weight='accessibility')
+    route = nx.shortest_path(graph, start_node, end_node, weight='accessibility') #accs score a göre en kısa yol
     return [[graph.nodes[node]['y'], graph.nodes[node]['x']] for node in route]
 
 def detect_obstacles(current_loc):
@@ -71,6 +74,8 @@ def create_alternative_route(start, end, obstacles):
         print("No path found. Keeping original route.")
         return get_route(start, end)
 
+
+# accs oluştururkenki taglerimiz
 def get_node_accessibility(tags):
     accessibility = 1.0
     if tags.get('tactile_paving') == 'yes': accessibility *= 0.8
@@ -81,6 +86,7 @@ def get_node_accessibility(tags):
     if tags.get('lit') == 'yes': accessibility *= 0.9
     return accessibility
 
+#flask app kısmı
 @app.route('/')
 def index():
     return render_template_string('''
@@ -321,6 +327,8 @@ def get_accessibility_info(location):
 
 def run_flask():
     app.run(debug=False, use_reloader=False)
+
+
 
 def simulation():
     global current_location, target_location, route, obstacles
