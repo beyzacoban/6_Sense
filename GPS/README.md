@@ -49,7 +49,7 @@ Web arayüzü şunları gösterir:
 
 
 
-Detaylı işleyiş : 
+### Detaylı işleyiş 
 
 - **Kütüphanelerin İçe Aktarılması**: `random`, `time`, `flask`, `osmnx`, `networkx` gibi gerekli kütüphaneler ve modüller projeye dahil ediliyor.
 - **Flask Uygulaması Başlatılıyor**: Flask web framework'ü kullanılarak uygulama başlatılıyor (`app = Flask(__name__)`). CORS (Cross-Origin Resource Sharing) ayarları, farklı kaynaklardan erişime izin vermek için etkinleştiriliyor.
